@@ -4,7 +4,7 @@
       
         <groupId>com.example</groupId>  
         <artifactId>httpMock</artifactId>  
-        <version>1.5.0-SNAPSHOT</version>  
+        <version>1.5.0-Release</version>  
       
         <!-- Inherit defaults from Spring Boot -->  
         <parent>  

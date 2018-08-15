@@ -176,3 +176,72 @@
 2018-05-15 09:20:22.577 [http-nio-8080-exec-7] INFO  com.jieshun.test.springboot.HttpMock[94] - 接收到的请求的IP：192.168.207.102 请求内容为：-----{}---请求次数：1
 2018-05-15 09:20:24.497 [http-nio-8080-exec-8] INFO  com.jieshun.test.springboot.HttpMock[94] - 接收到的请求的IP：192.168.207.102 请求内容为：-----{}---请求次数：2
 2018-05-15 09:20:26.259 [http-nio-8080-exec-9] INFO  com.jieshun.test.springboot.HttpMock[94] - 接收到的请求的IP：192.168.207.102 请求内容为：-----{}---请求次数：3
+2018-08-15 08:56:57.244 [main] INFO  com.jieshun.test.springboot.HttpMockApplication[48] - Starting HttpMockApplication on js-PC with PID 27912 (C:\Users\Administrator\git-httpmock\springboot\target\classes started by Administrator in C:\Users\Administrator\git-httpmock\springboot)
+2018-08-15 08:56:57.259 [main] INFO  com.jieshun.test.springboot.HttpMockApplication[663] - The following profiles are active: prod
+2018-08-15 08:56:57.356 [main] INFO  o.s.b.c.embedded.AnnotationConfigEmbeddedWebApplicationContext[581] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ffbe09b: startup date [Wed Aug 15 08:56:57 CST 2018]; root of context hierarchy
+2018-08-15 08:56:57.533 [background-preinit] INFO  org.hibernate.validator.internal.util.Version[30] - HV000001: Hibernate Validator 5.2.4.Final
+2018-08-15 08:56:59.396 [main] INFO  o.s.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[88] - Tomcat initialized with port(s): 8080 (http) 8081 (http)
+2018-08-15 08:56:59.408 [main] INFO  org.apache.catalina.core.StandardService[179] - Starting service Tomcat
+2018-08-15 08:56:59.409 [main] INFO  org.apache.catalina.core.StandardEngine[179] - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-08-15 08:56:59.508 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][179] - Initializing Spring embedded WebApplicationContext
+2018-08-15 08:56:59.508 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader[276] - Root WebApplicationContext: initialization completed in 2155 ms
+2018-08-15 08:56:59.719 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean[190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-15 08:56:59.725 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean[258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-15 08:56:59.726 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean[258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-15 08:56:59.726 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean[258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-15 08:56:59.726 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean[258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-15 08:57:00.084 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerAdapter[534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ffbe09b: startup date [Wed Aug 15 08:56:57 CST 2018]; root of context hierarchy
+2018-08-15 08:57:00.175 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/]}" onto java.lang.String com.jieshun.test.springboot.HttpMock.home(javax.servlet.http.HttpServletRequest)
+2018-08-15 08:57:00.176 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/queryMethodList]}" onto java.lang.String com.jieshun.test.springboot.HttpMock.getMethodList()
+2018-08-15 08:57:00.176 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/addMethod]}" onto java.lang.String com.jieshun.test.springboot.HttpMock.getMethodList1(org.springframework.ui.ModelMap)
+2018-08-15 08:57:00.176 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/updateMethod]}" onto java.lang.String com.jieshun.test.springboot.HttpMock.updateResult(javax.servlet.http.HttpServletRequest)
+2018-08-15 08:57:00.176 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/**]}" onto java.lang.String com.jieshun.test.springboot.HttpMock.httpMock(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.UnsupportedEncodingException
+2018-08-15 08:57:00.180 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-15 08:57:00.180 [main] INFO  o.s.w.servlet.mvc.method.annotation.RequestMappingHandlerMapping[543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-15 08:57:00.217 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[354] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 08:57:00.217 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[354] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 08:57:00.261 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[354] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-15 08:57:00.470 [main] INFO  o.springframework.jmx.export.annotation.AnnotationMBeanExporter[431] - Registering beans for JMX exposure on startup
+2018-08-15 08:57:00.497 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[179] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-15 08:57:00.522 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[179] - Starting ProtocolHandler [http-nio-8080]
+2018-08-15 08:57:00.531 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool[179] - Using a shared selector for servlet write/read
+2018-08-15 08:57:00.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[179] - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-15 08:57:00.561 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool[179] - Using a shared selector for servlet write/read
+2018-08-15 08:57:00.561 [main] INFO  org.apache.coyote.http11.Http11NioProtocol[179] - Starting ProtocolHandler [http-nio-8081]
+2018-08-15 08:57:00.579 [main] INFO  o.s.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[186] - Tomcat started on port(s): 8080 (http) 8081 (http)
+2018-08-15 08:57:00.591 [main] INFO  com.jieshun.test.springboot.HttpMockApplication[57] - Started HttpMockApplication in 4.041 seconds (JVM running for 4.303)
+2018-08-15 08:57:22.997 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-15 08:57:22.997 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet[489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-15 08:57:23.016 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet[508] - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-08-15 08:57:36.424 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[46] - 文件夹:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project
+2018-08-15 08:57:36.425 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_1.txt
+2018-08-15 08:57:36.426 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_2.txt
+2018-08-15 08:57:36.427 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_3.txt
+2018-08-15 08:57:36.428 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_4.txt
+2018-08-15 08:57:36.429 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_5.txt
+2018-08-15 08:57:36.430 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_6.txt
+2018-08-15 08:57:36.431 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_7.txt
+2018-08-15 08:57:36.432 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_8.txt
+2018-08-15 08:57:36.433 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_9.txt
+2018-08-15 08:57:36.434 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[46] - 文件夹:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2
+2018-08-15 08:57:36.435 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_apiex.htm.txt
+2018-08-15 08:57:36.436 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_10.txt
+2018-08-15 08:57:36.437 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_11.txt
+2018-08-15 08:57:36.437 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_12.txt
+2018-08-15 08:57:36.438 [http-nio-8081-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_15.txt
+2018-08-15 08:57:41.876 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[46] - 文件夹:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project
+2018-08-15 08:57:41.877 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_1.txt
+2018-08-15 08:57:41.878 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_2.txt
+2018-08-15 08:57:41.879 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_3.txt
+2018-08-15 08:57:41.880 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_4.txt
+2018-08-15 08:57:41.881 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_5.txt
+2018-08-15 08:57:41.882 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_6.txt
+2018-08-15 08:57:41.883 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_7.txt
+2018-08-15 08:57:41.884 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_8.txt
+2018-08-15 08:57:41.884 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project\_test_9.txt
+2018-08-15 08:57:41.885 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[46] - 文件夹:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2
+2018-08-15 08:57:41.886 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_apiex.htm.txt
+2018-08-15 08:57:41.887 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_10.txt
+2018-08-15 08:57:41.888 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_11.txt
+2018-08-15 08:57:41.889 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_12.txt
+2018-08-15 08:57:41.889 [http-nio-8080-exec-4] INFO  com.jieshun.test.springboot.DispatcherHandler[52] - txt文件:C:\Users\Administrator\git-httpmock\springboot\protocol\test_project2\_test_15.txt
